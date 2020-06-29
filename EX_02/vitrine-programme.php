@@ -1,9 +1,10 @@
 <html>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style/vitrine.css">
+    <title>Programme</title>
 
 <body>
-<?php include ("header.php");?>
+<?php $page = 'programme'; include ("header.php");?>
     <h2>Programme ISCC 2020</h2>
     <center>
     <div id="tableau">

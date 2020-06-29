@@ -1,9 +1,10 @@
 <html>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style/vitrine.css">
+    <title>Contact</title>
 
 <body>
-<?php include ("header.php");?>
+<?php $page = 'contact'; include ("header.php");?>
 <h2>Contact</h2>
 <center>
 <form method="POST" action="traitement.php">

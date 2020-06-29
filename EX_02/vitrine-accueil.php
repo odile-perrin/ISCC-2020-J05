@@ -1,9 +1,10 @@
 <html>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style/vitrine.css">
+    <title>Accueil</title>
 
     <body>
-        <?php include ("header.php");?>
+        <?php $page = 'accueil'; include ("header.php");?>
         <h2>ACCUEIL</h2>
         <div class="block">
             <p><i>Le numérique, nouvelle ère de l’humanité, source d’innovation et de performance ?</i>
