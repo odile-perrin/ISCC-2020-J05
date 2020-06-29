@@ -2,8 +2,6 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style/vitrine.css">
 
-    
-    
     <body>
         <?php include ("header.php");?>
         <h2>ACCUEIL</h2>
@@ -18,6 +16,5 @@
 
 <?php include ("footer.php");?>
 </body>
-
 
 </html>
