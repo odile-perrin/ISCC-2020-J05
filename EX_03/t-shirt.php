@@ -29,3 +29,35 @@ elseif ($disponible == false)
     echo "<p>Le produit $nom n’est malheureusement plus disponible.</p>";
 }
 ?>
+
+<?php
+$quantité2 = 5;
+
+if ($quantité2 >= 5)
+{
+    echo "<p>Il reste $quantité2 produits en magasin.</p>";
+}
+
+if (( $quantité2 >= 2) AND $quantité2 < 5)
+{
+    echo "<p>Il ne reste plus que $quantité2 produits en magasin.</p>";
+}
+
+elseif ($quantité2 == 1)
+{
+    echo "<p>Il ne reste qu’un produit en magasin.</p>";
+}
+
+elseif ($quantité2 == 0)
+{
+    echo "<p>Il ne reste plus de produit en magasin.</p>";
+}
+
+?>
+
+<?php
+
+
+?>
+
+
